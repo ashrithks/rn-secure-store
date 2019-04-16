@@ -1,6 +1,6 @@
 {
   "name": "react-native-secure-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "repository": {
@@ -19,7 +19,7 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "scripts": {
-    "compile": "babel --source-maps -d lib/ src/",
+    "compile": "babel --source-maps -d lib/ source/",
     "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
