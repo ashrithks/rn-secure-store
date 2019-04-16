@@ -2,9 +2,14 @@
   "name": "react-native-secure-store",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashrithks/rn-secure-store.git"
+  },
   "keywords": [
-    "react-native"
+    "react-native",
+    "secure-store"
   ],
   "peerDependencies": {
     "react-native": "*"
@@ -18,6 +23,6 @@
     "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ashrith",
-  "license": ""
+  "author": "ashrithks",
+  "license": "MIT"
 }
